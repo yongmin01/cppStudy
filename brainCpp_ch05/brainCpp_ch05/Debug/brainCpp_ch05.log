@@ -1,0 +1,18 @@
+﻿  brainCpp_ch05.cpp
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(13,7): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(21,12): warning C4305: '=': 'int'에서 'short'(으)로 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(21,7): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(22,13): warning C4305: '=': 'int'에서 'unsigned short'(으)로 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(22,8): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(29,17): warning C4305: '=': '__int64'에서 'short'(으)로 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(29,7): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(30,6): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(31,7): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(32,18): warning C4305: '=': '__int64'에서 'unsigned short'(으)로 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(32,8): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(37,17): warning C4305: '=': '__int64'에서 'unsigned int'(으)로 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(37,7): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(38,17): warning C4305: '=': '__int64'에서 'unsigned long'(으)로 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(38,7): warning C4309: '=': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch05\brainCpp_ch05\brainCpp_ch05.cpp(72,13): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  brainCpp_ch05.vcxproj -> C:\GitHub\cppStudy\brainCpp_ch05\Debug\brainCpp_ch05.exe
