@@ -78,6 +78,24 @@ int main() {
 	d = 1 / 23E0;
 	ld = 1.23E2;
 
+	// 예제 5-5 char 타입의 사용
+	char a;
+	char b;
+	char c;
+
+	a = 'G';
+	b = 'O';
+	c = 'D';
+
+	cout << a << b << c << "\n";
+
+	// 예제 5-6 아스키 코드 값 확인
+	int A = 'A';
+	cout << A << "\n";
+	
+	b = 65;
+	cout << b << "\n";
+
 	return 0;
  	
 }
