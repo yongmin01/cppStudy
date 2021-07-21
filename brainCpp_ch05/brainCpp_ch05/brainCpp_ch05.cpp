@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+	/*
 	short int si;
 	unsigned short int usi;
 	int i;
@@ -95,6 +96,80 @@ int main() {
 	
 	b = 65;
 	cout << b << "\n";
+
+	// 예제 5-7 이스케이프 문자열 사용
+	cout << "Hello, Works";
+	cout << "\b\b";
+	cout << "ld!\n";
+
+	// 예제 5-8 bool 타입 사용
+	bool b1;
+	bool b2;
+
+	b1 = true;
+	b2 = false;
+
+	cout << "b1 = " << b1 << "\n";
+	cout << "b2 = " << b2 << "\n";
+	
+
+	// 예제 5-9 기본 타입간의 형변환
+	int i = 65;
+	float f = 66.89f;
+	char c = 'C';
+	bool b = true;
+
+	int f2i, c2i, b2i;
+	float i2f, c2f, b2f;
+	char i2c, f2c, b2c;
+	bool i2b, f2b, c2b;
+
+	i2f = i; // int -> float
+	i2c = i; // int -> char
+	i2b = i; // int -> bool
+
+	f2i = f; // float -> int
+	f2c = f; // float -> char
+	f2b = f; // float -> bool
+
+	c2i = c; // char -> int
+	c2f = c; // char -> float
+	c2b = c; // char -> bool
+
+	b2i = b; // bool -> int
+	b2f = b; // bool -> float
+	b2c = b; // bool -> char
+	
+	cout << "int : " << i << "\n\tto float : " << i2f << "\n\tto char : " << i2c << "\n\tto bool : " << i2b << "\n\n";
+	cout << "float : " << f << "\n\tto int : " << f2i << "\n\tto char : " << f2c << "\n\tto bool : " << f2b << "\n\n";
+	cout << "char : " << c << "\n\tto int : " << c2i << "\n\tto float : " << c2f << "\n\tto bool : " << c2b << "\n\n";
+	cout << "bool : " << b << "\n\tto int : " << b2i << "\n\tto float : " << b2f << "\n\tto char : " << b2c << "\n\n";
+	*/
+
+	// 예제 5-10 문제가 생기는 형변환
+	// 정수 타입간의 형변환
+	int i = 131071;
+	unsigned short i2us = i; // int -> unsigned short
+	short i2s = i; // int -> short
+
+	// 실수 타입간의 형변환
+	double d = 12345678901234.56789;
+	float d2f = d; // double -> float
+
+	// 실수 타입에서 정수 타입으로 형변환
+	float f = 76543.21f;
+	short f2s = f; // float -> short
+
+	// 정수 타입에서 실수 타입으로 형변환
+	int big_i = 1234567890;
+	float i2f = big_i; // int -> float
+
+	cout << fixed;
+	cout << "int : " << i << "\n\tto unsigned short : " << i2us << "\n\tto short : " << i2s << "\n\n";
+	cout << "double : " << d << "\n\tto float : " << d2f << "\n\n";
+	cout << "float : " << f << "\n\tto short : " << f2s << "\n\n";
+	cout << "int : " << big_i << "\n\ttp float : " << i2f << "\n\n";
+
 
 	return 0;
  	
