@@ -1,0 +1,6 @@
+﻿  brainCpp_ch09.cpp
+C:\GitHub\cppStudy\brainCpp_ch09\brainCpp_ch09\brainCpp_ch09.cpp(10,35): warning C4838: 'int'에서 'char'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\GitHub\cppStudy\brainCpp_ch09\brainCpp_ch09\brainCpp_ch09.cpp(10,56): warning C4305: '초기화 중': 'int'에서 'char'(으)로 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch09\brainCpp_ch09\brainCpp_ch09.cpp(10,35): warning C4309: '초기화 중': 상수 값이 잘립니다.
+C:\GitHub\cppStudy\brainCpp_ch09\brainCpp_ch09\brainCpp_ch09.cpp(40,9): warning C4101: 'd' :참조되지 않은 지역 변수입니다.
+  brainCpp_ch09.vcxproj -> C:\GitHub\cppStudy\brainCpp_ch09\Debug\brainCpp_ch09.exe
