@@ -36,13 +36,12 @@ int main() {
 
 	
 	char c[5];
-
-	double d[3];
+	char d[] = "Hello?";
+	double e[3];
 	short s[4];
-	cout << "sizeof(c) = " << sizeof(c) / sizeof(c[0]) << "\n";
-	//cout << "sizeof(char c[] = " << sizeof(c) / sizeof(c[0]) << "\n";
-	//cout << "sizeof(d) = " << sizeof(d) << "\n";
-	cout << "sizeof(s) = " << sizeof(s) / sizeof(s[0]) << "\n";
-
+	cout << "sizeof(c) = " << sizeof(c) << "(Bytes)\n";
+	cout << "sizeof(d) = " << sizeof(d) << "(Bytes)\n";
+	cout << "sizeof(e) = " << sizeof(e) << "(Bytes)\n";
+	cout << "sizeof(s) = " << sizeof(s) << "(Bytes)\n";
 	return 0;
 }
