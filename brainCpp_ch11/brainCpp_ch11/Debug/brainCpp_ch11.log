@@ -1,0 +1,3 @@
+﻿  brainCpp_ch11.cpp
+C:\GitHub\cppStudy\brainCpp_ch11\brainCpp_ch11\brainCpp_ch11.cpp(99,12): error C2373: 'a': 재정의. 형식 한정자가 다릅니다.
+C:\GitHub\cppStudy\brainCpp_ch11\brainCpp_ch11\brainCpp_ch11.cpp(91): message : 'a' 선언을 참조하십시오.
