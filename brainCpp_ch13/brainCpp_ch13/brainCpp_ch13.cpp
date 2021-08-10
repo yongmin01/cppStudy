@@ -101,7 +101,7 @@ int main() {
 
 	cout << "ref    =" << ref << "\n";
 	cout << "target =" << target << "\n";
-	*/
+	
 	
 	// 예제 13-5 16비트 칼라의 한 점에서 파란색만 추출
 	unsigned short color = 0x1234;
@@ -111,6 +111,17 @@ int main() {
 
 	cout << "color = " << bitset<16>(color) << "(" << color << ")\n";
 	cout << "blue  = " << bitset<16>(convert.pixel.blue) << "(" << convert.pixel.blue << ")\n";
+	*/
+
+	// exercise 13-4
+	int gugudan[10][10];
+	for (int a = 0; a < 10; a++) {
+		for (int b = 0; b < 10; b++) {
+			gugudan[a][b] = a * b;
+		}
+	}
+
+	cout << "3 x 9 = " << gugudan[3][9] << endl;
 
 	return 0;
 }
