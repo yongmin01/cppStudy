@@ -1,0 +1,3 @@
+﻿  brainCpp_ch16.cpp
+C:\GitHub\cppStudy\brainCpp_ch16\brainCpp_ch16\brainCpp_ch16.cpp(26): warning C4172: 지역 변수 또는 임시: reverse의 주소를 반환하고 있습니다.
+  brainCpp_ch16.vcxproj -> C:\GitHub\cppStudy\brainCpp_ch16\Debug\brainCpp_ch16.exe
